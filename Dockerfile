@@ -31,10 +31,10 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 #Criar a imagem:
-#Executar o comando `docker build -t <nome_da_imagem> .`
-#docker build -t lab-timer365 .
+#Executar o comando `docker build . -t <nome_user_dockerhub>/<nome_da_imagem>`
+#docker build . -t gbetsa/lab-timer365
 
 #Criar o container:
 #Executar o comando `docker run -p 80:80 <nome_da_imagem>`
-#docker run -p 80:80 lab-timer365
+#docker run -p 80:80 gbetsa/lab-timer365
 

@@ -43,11 +43,11 @@ export function HomePage() {
             {
                 activeCycle ? (
                     <Button type="button" variant='secondary' onClick={interruptedCurrentCycle}> 
-                        <Hand size={24} /> Interromper
+                        <Hand size={24} /> Interromper...
                     </Button>    
                 ) : (
                     <Button type="submit" disabled={isSubmitDisabled}>
-                        <Play size={24} /> Começar
+                        <Play size={24} /> Começar...
                     </Button>    
                 )
             }
